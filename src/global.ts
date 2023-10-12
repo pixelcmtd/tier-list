@@ -1,0 +1,37 @@
+export type Tier = [string, string, string[]];
+export const tiers: Tier[] = [
+    ["Banger", "ff7f7f"],
+    ["DTC", "ffbf7f"],
+    ["If I Have To", "ffdf7f"],
+    ["Würde ich nich mehr posten", "ffff7f"],
+    ["L", "bfff7f"],
+    ["Würde mich selber canceln", "7fff7f"],
+    //[t7, "7fffbf"],
+    //[t8, "7fffff"],
+].map(([name, color]) => [name, color, []]);
+
+export const toDetermine = [
+    "editors/nano.png",
+    "editors/dreamweaver.png",
+    "editors/notepad.jpeg",
+    "editors/lapce.png",
+    "editors/intellij.png",
+    "editors/vs.jpeg",
+    "editors/fleed.png",
+    "editors/zed.png",
+    "editors/frontpage.png",
+    "editors/kakoune.png",
+    "editors/eclipse.png",
+    "editors/vim.png",
+    "editors/pycharm.png",
+    "editors/notepad++.png",
+    "editors/vs-express.jpeg",
+    "editors/netbeans.webp",
+    "editors/sublime.png",
+    "editors/xcode.png",
+    "editors/emacs.png",
+    "editors/helix.png",
+    "editors/atom.jpeg",
+    "editors/vscode.webp",
+    "editors/neovim.jpeg",
+];
